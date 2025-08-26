@@ -75,15 +75,15 @@ public class Movement : MonoBehaviour
     private void RotateLeft()
     {
         ApplyRotation(rotationStrength);
-        stopParticles(rightEngineParticles);
-        PlayParticles(leftEngineParticles);
+        stopParticles(leftEngineParticles);
+        PlayParticles(rightEngineParticles);
     }
 
     private void RotateRight()
     {
         ApplyRotation(-rotationStrength);
-        stopParticles(leftEngineParticles);
-        PlayParticles(rightEngineParticles);
+        stopParticles(rightEngineParticles);
+        PlayParticles(leftEngineParticles);
     }
 
     private void ApplyRotation(float rotationStrength)
