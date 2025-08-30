@@ -135,7 +135,7 @@ RectTransform:
   m_Children:
   - {fileID: 7404065763389539629}
   - {fileID: 7803728671394688594}
-  - {fileID: 1567804630995362341}
+  - {fileID: 6154529509589087910}
   m_Father: {fileID: 1171373946150580571}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -226,7 +226,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pauseMenuUI: {fileID: 1441594304462799859}
---- !u!1001 &1567804630982012455
+--- !u!1001 &6154529509608700580
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -352,7 +352,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3129095167101206513, guid: b0e6d305d4250422c84007d3b32bda1d, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: QuitToMainMenu
+      value: QuitGame
       objectReference: {fileID: 0}
     - target: {fileID: 3129095167101206513, guid: b0e6d305d4250422c84007d3b32bda1d, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
@@ -367,10 +367,10 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b0e6d305d4250422c84007d3b32bda1d, type: 3}
---- !u!224 &1567804630995362341 stripped
+--- !u!224 &6154529509589087910 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 22400002, guid: b0e6d305d4250422c84007d3b32bda1d, type: 3}
-  m_PrefabInstance: {fileID: 1567804630982012455}
+  m_PrefabInstance: {fileID: 6154529509608700580}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &7404065763400796463
 PrefabInstance:
@@ -450,7 +450,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 22400002, guid: b0e6d305d4250422c84007d3b32bda1d, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -326
+      value: -336.99997
       objectReference: {fileID: 0}
     - target: {fileID: 22400002, guid: b0e6d305d4250422c84007d3b32bda1d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -512,7 +512,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100002, guid: b0e6d305d4250422c84007d3b32bda1d, type: 3}
       propertyPath: m_Name
-      value: ExitButton
+      value: ExitToMenuButton
       objectReference: {fileID: 0}
     - target: {fileID: 11400004, guid: b0e6d305d4250422c84007d3b32bda1d, type: 3}
       propertyPath: m_Text
@@ -584,7 +584,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 22400002, guid: b0e6d305d4250422c84007d3b32bda1d, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -478
+      value: -521.1
       objectReference: {fileID: 0}
     - target: {fileID: 22400002, guid: b0e6d305d4250422c84007d3b32bda1d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x

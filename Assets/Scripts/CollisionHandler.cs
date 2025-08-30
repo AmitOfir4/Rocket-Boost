@@ -83,9 +83,9 @@ public class CollisionHandler : MonoBehaviour
 
         int previousScene = currentScene - 1;
 
-        if (previousScene < 0)
+        if (previousScene < 1)
         {
-            previousScene = 0;
+            previousScene = 1;
         }
 
         SceneManager.LoadScene(previousScene);

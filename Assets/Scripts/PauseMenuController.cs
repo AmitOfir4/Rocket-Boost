@@ -8,7 +8,7 @@ public class MainMenu : MonoBehaviour
 
     void Start()
     {
-        if (pauseMenuUI != null)
+        if (pauseMenuUI.activeSelf)
         {
             pauseMenuUI.SetActive(false);
         }
