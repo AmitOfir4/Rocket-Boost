@@ -76,7 +76,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
   m_ReferenceResolution: {x: 800, y: 600}
@@ -322,6 +322,14 @@ PrefabInstance:
       propertyPath: m_Text
       value: Exit Game
       objectReference: {fileID: 0}
+    - target: {fileID: 11400004, guid: b0e6d305d4250422c84007d3b32bda1d, type: 3}
+      propertyPath: m_FontData.m_FontSize
+      value: 35
+      objectReference: {fileID: 0}
+    - target: {fileID: 22400000, guid: b0e6d305d4250422c84007d3b32bda1d, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.602604
+      objectReference: {fileID: 0}
     - target: {fileID: 22400002, guid: b0e6d305d4250422c84007d3b32bda1d, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -388,11 +396,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 22400002, guid: b0e6d305d4250422c84007d3b32bda1d, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -609.62
+      value: -241.9
       objectReference: {fileID: 0}
     - target: {fileID: 22400002, guid: b0e6d305d4250422c84007d3b32bda1d, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -104
+      value: -71.5
       objectReference: {fileID: 0}
     - target: {fileID: 22400002, guid: b0e6d305d4250422c84007d3b32bda1d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -464,6 +472,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: ResumeButton
       objectReference: {fileID: 0}
+    - target: {fileID: 11400004, guid: b0e6d305d4250422c84007d3b32bda1d, type: 3}
+      propertyPath: m_FontData.m_MinSize
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400004, guid: b0e6d305d4250422c84007d3b32bda1d, type: 3}
+      propertyPath: m_FontData.m_FontSize
+      value: 35
+      objectReference: {fileID: 0}
+    - target: {fileID: 22400000, guid: b0e6d305d4250422c84007d3b32bda1d, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.602604
+      objectReference: {fileID: 0}
     - target: {fileID: 22400002, guid: b0e6d305d4250422c84007d3b32bda1d, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -530,7 +550,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 22400002, guid: b0e6d305d4250422c84007d3b32bda1d, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -336.99997
+      value: -197.5
       objectReference: {fileID: 0}
     - target: {fileID: 22400002, guid: b0e6d305d4250422c84007d3b32bda1d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -598,6 +618,18 @@ PrefabInstance:
       propertyPath: m_Text
       value: Exit To Main Menu
       objectReference: {fileID: 0}
+    - target: {fileID: 11400004, guid: b0e6d305d4250422c84007d3b32bda1d, type: 3}
+      propertyPath: m_FontData.m_FontSize
+      value: 35
+      objectReference: {fileID: 0}
+    - target: {fileID: 22400000, guid: b0e6d305d4250422c84007d3b32bda1d, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.602604
+      objectReference: {fileID: 0}
+    - target: {fileID: 22400000, guid: b0e6d305d4250422c84007d3b32bda1d, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -6
+      objectReference: {fileID: 0}
     - target: {fileID: 22400002, guid: b0e6d305d4250422c84007d3b32bda1d, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -664,7 +696,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 22400002, guid: b0e6d305d4250422c84007d3b32bda1d, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -521.1
+      value: -323.4
       objectReference: {fileID: 0}
     - target: {fileID: 22400002, guid: b0e6d305d4250422c84007d3b32bda1d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
